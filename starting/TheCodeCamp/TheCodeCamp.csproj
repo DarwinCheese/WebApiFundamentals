@@ -196,6 +196,8 @@
     </Compile>
     <Compile Include="Data\Migrations\Configuration.cs" />
     <Compile Include="Models\CampModel.cs" />
+    <Compile Include="Models\SpeakerModel.cs" />
+    <Compile Include="Models\TalkModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -214,6 +216,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Views\CampMappingProfile\" />
     <Folder Include="Views\Camps\" />
+    <Folder Include="Views\TalkModel\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
